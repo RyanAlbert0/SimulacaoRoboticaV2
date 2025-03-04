@@ -13,7 +13,6 @@ var Sim2 = "img/Saída Rosa.png";
 var Sim3 = "img/Saída Preta.png";
 var Sim4 = "img/Saída Branca.png";
 var Sim5 = "img/Saída Azul.png";
-var Sim6 = "img/Saída Cinza.png";
 var Sim7 = "img/Saída Amarela.png";
 var Sim8 = "img/Saída Laranja.png";
 var Sim9 = "img/Saída Verde.png";
@@ -59,10 +58,6 @@ function calcular(){
     if(LISTA.value == '145')
     {
         document.getElementById('imagem').src = Sim5 
-    }
-    if(LISTA.value == '309')
-    {
-        document.getElementById('imagem').src = Sim6 
     }
     if(LISTA.value == '92')
     {
